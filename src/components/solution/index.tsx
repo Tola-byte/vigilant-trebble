@@ -8,7 +8,7 @@ export const Solution = () => {
       <Container>
         <div className="">
           <div className="text-center mb-40">
-            <h3 className="text-5xl font-bold text-primary mb-4">
+            <h3 className="text-3xl md:text-5xl font-bold text-primary mb-4">
               Our Solution for the World of Aquaculture
             </h3>
           </div>

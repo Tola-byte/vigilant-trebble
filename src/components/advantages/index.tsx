@@ -1,3 +1,4 @@
+import { FcElectricity, FcApproval, FcLock } from "react-icons/fc";
 import { Container } from "../skeleton/container";
 import { Slider } from "../slider";
 
@@ -22,9 +23,48 @@ export const Advantages = () => {
               </h3>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
-              <div className="h-[30rem] rounded-xl bg-white border-gray-400 border-opacity-40" />
-              <div className="h-[30rem] rounded-xl bg-white border-gray-400 border-opacity-40" />
-              <div className="h-[30rem] rounded-xl bg-white border-gray-400 border-opacity-40" />
+              <div className=" h-[25rem] flex justify-center items-center flex-col rounded-xl bg-white border-gray-400 border-opacity-40 p-6">
+                <div className="mb-6">
+                  <FcElectricity size={80} />
+                </div>
+                <div className="text-center">
+                  <h5 className="text-gray-800 font-semibold mb-2 text-xl">
+                    Fast Delivery
+                  </h5>
+                  <p className="text-sm text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique amet fugit tempora? Labore, enim nesciunt.
+                  </p>
+                </div>
+              </div>
+              <div className=" h-[25rem] flex justify-center items-center flex-col rounded-xl bg-white border-gray-400 border-opacity-40 p-6">
+                <div className="mb-6">
+                  <FcApproval size={80} />
+                </div>
+                <div className="text-center">
+                  <h5 className="text-gray-800 font-semibold mb-2 text-xl">
+                    Certified Distributor
+                  </h5>
+                  <p className="text-sm text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique amet fugit tempora? Labore, enim nesciunt.
+                  </p>
+                </div>
+              </div>
+              <div className=" h-[25rem] flex justify-center items-center flex-col rounded-xl bg-white border-gray-400 border-opacity-40 p-6">
+                <div className="mb-6">
+                  <FcLock size={80} />
+                </div>
+                <div className="text-center">
+                  <h5 className="text-gray-800 font-semibold mb-2 text-xl">
+                    Safety
+                  </h5>
+                  <p className="text-sm text-gray-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique amet fugit tempora? Labore, enim nesciunt.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </Container>

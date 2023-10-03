@@ -8,14 +8,14 @@ export const Mission = () => {
         <div className="">
           <div className="">
             <div className="text-center mb-10">
-              <h2 className="text-5xl font-bold text-primary mb-4">
+              <h2 className="text-3xl md:text-5xl font-bold text-primary mb-4">
                 Our Mission
               </h2>
-              <p className="text-xl text-gray-500">
+              <p className="text-base md:text-xl text-gray-500">
                 Bridging the Digital Divide, Meeting the World's Food Needs
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-x-12 mb-12 ">
+            <div className="grid grid-cols-1 gap-y-8 md:gap-y-0 md:grid-cols-3 gap-x-12 mb-12 ">
               {missionData.map((item) => (
                 <div className="" key={item.id}>
                   <div className="h-[25rem]  mb-4">
