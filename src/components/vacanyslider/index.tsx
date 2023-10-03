@@ -21,7 +21,7 @@ export const VacancySlider = () => {
   const imageWidth = 24.5; 
 
   return (
-    <div className="no-scroll-bar scroll-smooth">
+    <div className="no-scroll-bar scroll-smooth overflow-hidden">
       <div className="flex gap-12 p-10 mb-10" style={{ transform: `translateX(-${currentIndex * imageWidth}%)` }}>
         {vacancySliderData.concat(vacancySliderData).map((data, index) => (
           <img
