@@ -20,10 +20,16 @@ export const SolutionCard: React.FC<SolutionCardType> = ({
           <span className="font-semibold text-gray-800">{subtitle}</span>
         </p>
         <p className="md:leading-loose md:min-h-[18rem]">{body}</p>
-        <div className="">
-          <button className="rounded-full py-3 px-6 text-gray-100 bg-primary">
+        <div className="flex gap-5 ">
+          <button className="rounded-full py-2 px-4 text-gray-100 bg-[#038767]">
             Find out more
           </button>
+          <img decoding="async" width="146" height="250" src="https://efishery.com/wp-content/uploads/2023/06/id_badge_web_generic-2.png" 
+          className="attachment-full size-full wp-image-16088" alt="" 
+          srcSet="https://efishery.com/wp-content/uploads/2023/06/id_badge_web_generic-2.png 646w, 
+          https://efishery.com/wp-content/uploads/2023/06/id_badge_web_generic-2-300x116.png 300w, 
+          https://efishery.com/wp-content/uploads/2023/06/id_badge_web_generic-2-18x7.png 18w,
+           https://efishery.com/wp-content/uploads/2023/06/id_badge_web_generic-2-600x232.png 600w" sizes="(max-width: 646px) 100vw, 646px" />
         </div>
       </div>
     </div>
